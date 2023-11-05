@@ -14,7 +14,7 @@ include('../sql/db_conexao.php');
 
 if(isset($_POST['acao'])){
 $nome = $_POST['nome'];
-$sobrenomenome = $_POST['sobrenome'];
+$sobrenome = $_POST['sobrenome'];
 $momento_registro = date('Y-m-d H:i:s');
 
 $sql = $pdo->prepare("INSERT INTO `clientes` VALUES (null,?,?,?)");
@@ -34,9 +34,9 @@ echo 'Cliente inserido com sucesso';
 </head>
 <body>
     <form action="" method="post">
-        <input type="text" name="nome">/>
-        <input type="text" name="sobrenome">/>
-        <input type="submit" name="acao" value="Enviar!">/>
+        <input type="text" name="nome">
+        <input type="text" name="sobrenome">
+        <input type="submit" name="acao" value="Enviar!">
     </form>
 </body>
 </html>
