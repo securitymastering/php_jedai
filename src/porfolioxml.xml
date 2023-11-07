@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dados>
+    <pessoa>
+        <nome>Joáo da Silva</nome>
+        <idade>30</idade>
+        <e-mail>joao.silva@example.com</e-mail>
+        <telefone>(11) 1234-5678</telefone>
+    </pessoa>
+    <produto>
+        <nome>Notebook Dell Inspiron</nome>
+        <preço>R$ 3.999,00</preço>
+        <descrição> Notebook com processador Intel Core i5, 8GB de RAM e SSD de 256GB</descrição>
+    </produto>
+    <livro>
+        <título>O Senhor dos Anéis</título>
+        <autor> J.R.R. Tolkien</autor>
+        <ano de publicação>1954</ano de publicação>
+            <isbn>978-8576571248</isbn>
+    </livro>
+    <localização>
+        <latitude>-23.5505</latitude>
+        <longitude>-46.6333</longitude>
+        <cidade>São Paulo</cidade>
+        <país>Brasil</país>
+    </localização>
+    <pedidos de compra>
+        <numero do pedido>12345</numero do pedido>
+        <data>2023-08-02</data>
+        <itens do pedido>
+              <item1>
+                <produto>Camiseta Branca</produto>
+                <quantidade>2</quantidade>
+                <preço unitário>R$ 39,90</preço unitário>
+              </item1>
+              <item2>
+                <produto>Calça Jeans</produto>
+                <quantidade>1</quantidade>
+                <preço unitário>R$ 89,90</preço unitário>
+              </item1>
+        </itens do pedido> 
+    </pedidos de compra>
+    <configurações do usuário>
+        <tema>Escuro</tema>
+        <tamanho da fonte>14px</tamanho da fonte>
+        <notificações>Ativadas</notificações>
+    </configurações do usuário>
+    <equipe de desenvolvimento>
+        <nome da equipe>CodeCrafters</nome da equipe>
+         <membros>
+            <membro1>Alice</membro1>
+            <membro2>Bob</membro2>
+            <membro3>Carol</membro3>
+         </membros>
+    </equipe de desenvolvimento>
+
+</dados>
