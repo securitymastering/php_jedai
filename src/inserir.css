@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body,html{
@@ -32,8 +31,8 @@ column-gap:2rem;
 }
 
 .form_style{
-width:80vw;
-height:80vh;
+width:50vw;
+height:0auto;
 background:linear-gradient(90deg,#000000,#3533cd);
 justify-content: center;
 align-items: center;

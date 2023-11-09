@@ -26,6 +26,8 @@ $sql = $pdo->prepare("INSERT INTO `clientes` VALUES (null,?,?,?,?,?,?,?,?)");
 $sql->execute(array($nome,$sobrenome,$momento_registro,$email,$endereco,$cep,$telefone,$profissao));
 
 echo 'Cliente inserido com sucesso';
+}else{
+    echo 'Falha no Envio de Dados!';
 }
 
 ?>
