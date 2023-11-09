@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body,html{
+width:100vw;
+height: 100vh;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+gap:2rem;
+
+
+}
+
+body{
+width:100vw;
+height: 100vh;
+background: linear-gradient(rgba(255,255,255,0.5),rgba(0,0,0,0.5));
+color: white;
+column-gap:2rem;
+
+}
+
+.form_style{
+width:80vw;
+height:80vh;
+background:linear-gradient(90deg,#000000,#3533cd);
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+
+.inserir_input{
+width:500px;
+height:50px;
+border-radius:10px;
+border:green;
+padding:10px;
+}
+
+.inserir_button{
+width:120px;
+height:50px;
+background:linear-gradient(90deg,#000000,#3533cd);
+cursor:pointer;
+border:0;
+color:white;
+bottom:10;
+border-radius: 10px;
+}
+
+.inserir_button:hover{
+    background:#3533cd;
+}
+
+.inserir_input:focus{
+border:green;
+
+}
